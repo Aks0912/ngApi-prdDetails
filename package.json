@@ -1,0 +1,22 @@
+{
+  "name": "agapi-prd-details",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aks0912/ngApi-prdDetails.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aks0912/ngApi-prdDetails/issues"
+  },
+  "homepage": "https://github.com/Aks0912/ngApi-prdDetails#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
