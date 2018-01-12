@@ -7,7 +7,7 @@ var app = express();
 var port = process.env.PORT||3000; 
 var commanRouter = express.Router();
 
-commanRouter.route('/getProducts')
+commanRouter.route('/getPrdDetails')
     .get(function(req,res){
     	var url = 'mongodb://root:admin@ds127536.mlab.com:27536/dbsansmercy'
     	mongodb.connect(url, (err, db) => {  
